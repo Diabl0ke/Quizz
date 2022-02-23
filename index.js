@@ -71,7 +71,7 @@ function afficherResultats(tabCheck) {
             noteResultat.innerText = '4/8';
         break;
         case 5 :
-            titreResultat.innerText = `👀 Il reste quelques erreurs. 😭`
+            titreResultat.innerText = `👀 Vous pouvez encore mieux faire ! 😭`
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !';
             noteResultat.innerText = '3/8';
         break;
