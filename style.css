@@ -7,6 +7,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    font-size: 2rem;
 }
 
 .intro{
@@ -24,22 +25,6 @@ body{
     background-position: center;
     width: 100%;
     height: 100%;
-    /* opacity: 0.3; */
-}
-
-/* .texte {
-    position: relative;
-    bottom: 10%;
-    left: 10%;
-} */
-
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 30px 0;
-    font-size: 40px;
 }
 
 .container-global{
@@ -129,5 +114,11 @@ form button:hover {
     }
     100%{
         transform: translateX(0px);
+    }
+}
+
+@media only screen and (min-width: 430px) {
+    p {
+        font-size: 1rem; 
     }
 }
