@@ -1,3 +1,5 @@
+AOS.init();
+
 const form = document.querySelector('.form-quizz');
 let tableauResultats = [];
 const reponses = ['a','b','d','b','b','d','a','d'];

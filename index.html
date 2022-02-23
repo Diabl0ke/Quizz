@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Quizz js</title>
 </head>
@@ -15,7 +16,7 @@
         
         <form action="" class="form-quizz">
             
-            <div class="question-block">
+            <div class="question-block" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="img/ff9-9.jpg" class="bg" alt="Final Fantasy 9">
                 <h4> Dans quelle ville se déroule le début de Final Fantasy 9?</h4>
                     <div>
@@ -23,8 +24,8 @@
                         <label for="Lindblum">A Lindblum</label>
                     </div>
                     <div>
-                        <input type="radio" id="Balamb" name="q1" value="b" >
-                        <label for="Balamb">A Balamb</label>
+                        <input type="radio" id="Dollet" name="q1" value="b" >
+                        <label for="Balamb">A Dollet</label>
                     </div>
                     <div>
                         <input type="radio" id="Alexandria" name="q1" value="c" >
@@ -35,7 +36,7 @@
                         <label for="Treno">A Treno</label>
                     </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-out-down" data-aos-duration="1500">
                 <img src="img/ff8_8.jpg" class="bg" alt="Final Fantasy 8">
                     <h4> Quelle est la date de sortie de Final Fantasy 8 ?</h4>
                         <div>
@@ -43,39 +44,39 @@
                             <label for="QuatreVingtDixNeuf">1999</label>
                         </div>
                         <div>
-                            <input type="radio" id="DeuxMille" name="q2" value="b" >
+                            <input type="radio" id="Deuxmille" name="q2" value="b" >
                             <label for="Deuxmille">2000</label>
                         </div>
                         <div>
-                            <input type="radio" id="DeuxMilleUn" name="q2" value="c" >
+                            <input type="radio" id="DeuxmilleUn" name="q2" value="c" >
                             <label for="DeuxmilleUn">2001</label>
                         </div>
                         <div>
-                            <input type="radio" id="DeuxMilleDeux" name="q2" value="d" >
+                            <input type="radio" id="DeuxmilleDeux" name="q2" value="d" >
                             <label for="DeuxmilleDeux">2002</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-in-down" data-aos-duration="1500">
                 <img src="img/ff10-7.jpg" class="bg" alt="Final Fantasy 10">
                     <h4> Quel est le meilleur moyen d'obtenir des portes de l'inconnu ?</h4>
                         <div>
-                            <input type="radio" id="Xylomid" name="q3" value="c" checked>
+                            <input type="radio" id="Xylomid" name="q3" value="a" checked>
                             <label for="Xylomid">Corrompre un Xylomid dabs la Plaine Félicité</label>
                         </div>
                         <div>
-                            <input type="radio" id="Shinryu" name="q3" value="a" >
+                            <input type="radio" id="Shinryu" name="q3" value="b" >
                             <label for="Shinryu">En triomphant de Shinryu au CEM</label>
                         </div>
                         <div>
-                            <input type="radio" id="Coffres" name="q3" value="b" >
+                            <input type="radio" id="Coffres" name="q3" value="c" >
                             <label for="Coffres">En tuant des mimics dans les ruines d'Oméga</label>
                         </div>
                         <div>
-                            <input type="radio" id="Corruption" name="q3" value="d" >
-                            <label for="morbol">Corrompre un Morbol dans les ruines d'Oméga</label>
+                            <input type="radio" id="Morbol" name="q3" value="c" >
+                            <label for="Morbol">Corrompre un Morbol dans les ruines d'Oméga</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-out-left" data-aos-duration="1500">
                 <img src="img/ff10-anima.jpg" class="bg" alt="Final Fantasy 10">
                     <h4>Combien d'Hp a la chimère purgatrice Anima ?</h4>
                         <div>
@@ -83,8 +84,8 @@
                             <label for="Quatre">4 millions</label>
                         </div>
                         <div>
-                            <input type="radio" id="Hp" name="q4" value="b" >
-                            <label for="huit">8 millions</label>
+                            <input type="radio" id="Huit" name="q4" value="b" >
+                            <label for="Huit">8 millions</label>
                         </div>
                         <div>
                             <input type="radio" id="Douze" name="q4" value="c" >
@@ -95,7 +96,7 @@
                             <label for="VingtQuatre">24 millions</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-in-right" data-aos-duration="1500">
                 <img src="img/ff6-9.jpg" class="bg" alt="Final Fantasy 6">
                     <h4>Quel est le nom de l'Empereur dans Final Fantasy 6 ?</h4>
                         <div>
@@ -115,7 +116,7 @@
                             <label for="Mateus">Mateus</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-out" data-aos-duration="1500">
                 <img src="img/ff7-9.jpg" class="bg" alt="Final Fantasy 7">
                     <h4>D'où vient Zack ?</h4>
                         <div>
@@ -131,11 +132,11 @@
                             <label for="Wutai">De Wutai</label>
                         </div>
                         <div>
-                            <input type="radio" id="Zack" name="q6" value="d" >
+                            <input type="radio" id="Gongaga" name="q6" value="c" >
                             <label for="Gongaga">De Gongaga</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-in-down" data-aos-duration="1500">
                 <img src="img/ff8-7.jpg" class="bg" alt="Final Fantasy 8">
                     <h4>Comment s'appelle l'un des monstres d'Ultimécia ?</h4>
                         <div>
@@ -155,7 +156,7 @@
                             <label for="Bogomil">Bogomil</label>
                         </div>
                 </div>
-                <div class="question-block">
+                <div class="question-block" data-aos="zoom-out-down" data-aos-duration="1500">
                 <img src="img/ff8_2.jpg" class="bg" alt="Final Fantasy 7">
                     <h4>Pour quelle raison ont été crée les Seed Blanc ?</h4>
                         <div>
@@ -171,7 +172,7 @@
                             <label for="Cid">Pour protéger Cid</label>
                         </div>
                         <div>
-                            <input type="radio" id="SeedBlanc" name="q8" value="d" >
+                            <input type="radio" id="Elone" name="q8" value="d" >
                             <label for="Elone">Pour protéger Elone</label>
                         </div>
                 </div>
@@ -185,7 +186,8 @@
         </div>
     </div>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
     <script src="index.js"></script>
     
 </body>
